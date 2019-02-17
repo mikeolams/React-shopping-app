@@ -7,7 +7,7 @@ class Counter extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<h1>Hello World</h1>
+				<span>{this.state.count}</span>
 				<button>Increment</button>
 			</React.Fragment>
 			);
