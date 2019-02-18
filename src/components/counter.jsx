@@ -7,7 +7,7 @@ class Counter extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<span>{this.formatCount()}</span>
+				<span className="badge badge-primary">{this.formatCount()}</span>
 				<button>Increment</button>
 			</React.Fragment>
 			);
