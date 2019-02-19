@@ -40,7 +40,6 @@ class Counter extends Component {
 				<div>
 					{this.state.tags.length === 0 && 'Please create a new tag!'}
 				   	{this.renderTags()}	
-					}
 				</div>
 			</React.Fragment>
 			);
